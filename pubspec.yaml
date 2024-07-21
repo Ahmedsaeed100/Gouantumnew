@@ -1,0 +1,128 @@
+name: gouantum
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.2+4
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
+  flutter_svg: ^2.0.10+1
+  pin_code_fields: ^8.0.1
+  flutter_slidable: ^3.1.0
+  get: ^4.6.6
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  firebase_auth: ^5.1.1
+  firebase_core: ^3.1.1
+  firebase_storage: ^12.1.0
+  firebase_messaging: ^15.0.2
+  cloud_firestore: ^5.0.2
+  font_awesome_flutter: ^10.7.0
+  google_sign_in: ^6.2.1
+  flutter_chat_bubble: ^2.0.2
+  get_storage: ^2.1.1
+  permission_handler: ^11.3.1
+  ##agora
+ 
+  agora_rtc_engine: ^6.3.2
+  flutter_callkit_incoming: ^2.0.4+1
+ # agora_uikit: ^1.1.0
+  ##geolocator
+  location: ^7.0.0
+  geocoding: ^3.0.0
+########
+  photo_view: ^0.15.0
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  fluttertoast: ^8.2.6
+  flutter_local_notifications: ^17.2.1
+  ### Chat Packege
+  flutter_speed_dial: ^7.0.0
+  file_picker: ^8.0.5 
+  readmore: ^3.0.0
+  dio: ^5.4.3+1
+  percent_indicator: ^4.2.3
+  url_launcher: ^6.3.0
+  any_link_preview: ^3.0.2
+  path: ^1.9.0 
+  record: ^4.4.4 # need update
+  audioplayers: ^6.0.0
+  flutter_ringtone_player: ^3.2.0 # need update
+  emoji_picker_flutter: ^1.6.4 # need update
+  lottie: ^3.0.0
+  timeago: ^3.6.1
+  flutter_easyloading: ^3.0.5
+  carousel_slider: ^4.2.1
+  modal_progress_hud_nsn: ^0.5.1
+  video_player: ^2.8.2
+  chewie: ^1.7.5
+  share_plus: ^9.0.0
+  omni_datetime_picker: ^2.0.2
+  quiver: ^3.2.1
+  rename: ^3.0.2
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/
+    - assets/img/logo/
+    - assets/icons/
+    - assets/json/
+    - assets/sounds/
+    - assets/img/logo/testImage/
+
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica.ttf
+
+    - family: inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+
+        
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+        - asset: assets/fonts/SFPRODISPLAYMEDIUM.OTF

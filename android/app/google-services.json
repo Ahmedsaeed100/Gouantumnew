@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "71342258267",
+    "project_id": "gouantam-41da4",
+    "storage_bucket": "gouantam-41da4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71342258267:android:b12b2d4b19e88134c3677e",
+        "android_client_info": {
+          "package_name": "com.gouantum.gouantum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71342258267-a7ouu5npvup71999o1cgpd2dj299f670.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gouantum.gouantum",
+            "certificate_hash": "06584fa07feef1250634bc53b5434edb36180009"
+          }
+        },
+        {
+          "client_id": "71342258267-5b2jvn5vlh9mhc6ih0s9bqftk14kjkhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG2jLCoeQK8RjRgC6ECadiAlTFwT3MgNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71342258267-5b2jvn5vlh9mhc6ih0s9bqftk14kjkhm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71342258267-414n1aguspac3k47gf9obncijpd9ep27.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.gouantam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
